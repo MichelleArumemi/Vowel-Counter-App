@@ -1,5 +1,6 @@
 *{
     font-family: 'DM Sans', sans-serif;
+    background-color: rgb(168, 174, 255);
 }
 .h1{
     display: flex;
@@ -7,16 +8,25 @@
     justify-content: center;
 }
 .container {
-    height: 50vh;
+    height: 15vh;
     align-items: center;
     justify-content: center;
-    margin: 10px ;
+    margin: 0;
     display: flex;
-    border: 1px black solid;
 }
 
 .textbox {
     width: 25%;
     border: 50%;
     margin: 10px;
+}
+.button {
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
